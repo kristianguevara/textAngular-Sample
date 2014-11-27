@@ -1,0 +1,15 @@
+<html>
+  <head>
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css"> <!-- the reason for everything. Clean styles-->
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"><!-- Styles for right controls-->
+      <script src="angular.min.js"></script>
+      <script src="textAngular.min.js"></script>
+      <script src="script.js"></script>
+  </head>
+  <body ng-app="testApp">
+    <h1>Text Angular Made Simple</h1>
+    <div ng-controller="testCtrl">
+      <div text-angular ng-model="htmlContent" name="demo-editor" ta-text-editor-class="border-around" ta-html-editor-class="border-around"></div>
+    </div>
+  </body>
+</html>
